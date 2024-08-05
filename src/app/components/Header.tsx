@@ -3,9 +3,8 @@
 import React, { useState, useCallback, useEffect } from "react";
 import "../styles/Header.css";
 import Contact from "./Contact";
-import Link from "next/link";
+import Image from "next/image";
 import dynamic from "next/dynamic";
-import { useTheme } from "next-themes";
 import { ContactModal } from "./ContactModal";
 
 const ThemeSwitcher = dynamic(() => import("./ThemeSwitcher"), { ssr: false });
@@ -39,7 +38,7 @@ const useMediaQuery = (width: Number) => {
         // compatibility for browser that dont have removeEventListener
         return () => media.removeListener(updateTarget);
       }
-    }, []);
+    }, [width, updateTarget]);
   
     return targetReached;
   };
@@ -53,7 +52,7 @@ export default function Header() {
         <header className="w-full grid md:grid-cols-8 lg:grid-cols-8 bg-primary">
             <div className="logo  md:col-span-1 lg:col-span-1 sm:row-span-2">
                 <a href="#">
-                    <img src="/resources/images\WCMLogo-removebg.png" alt="logo"></img>
+                    <Image width={100} height={100} src="/resources/images\WCMLogo-removebg.png" alt="logo"></Image>
                 </a>
             </div>
             <ul className={listClassName}>

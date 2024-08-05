@@ -72,7 +72,7 @@ export function ContactForm() {
                                 <Input placeholder="email" {...field} />
                             </FormControl>
                             <FormDescription>
-                                We'll never share your email with anyone else.
+                                Well never share your email with anyone else.
                             </FormDescription>
                             <FormMessage />
                         </FormItem>
@@ -88,7 +88,7 @@ export function ContactForm() {
                                 <Input placeholder="number (optional)" {...field} />
                             </FormControl>
                             <FormDescription>
-                                We'll never share your number with anyone else.
+                                Well never share your number with anyone else.
                             </FormDescription>
                             <FormMessage />
                         </FormItem>

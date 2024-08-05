@@ -8,7 +8,7 @@ const Donate: React.FC = () => {
             <h1 className="text-5xl text-heading">Donate</h1>
 
             <span className='text-menu'>
-                Please donate to help us build the Mosque. We are in need of funds to help us complete the project.
+                Please donate to help us build the Mosque. We are hoping to raise £200,000 to complete the project, and we cannot do it without you. Messenger of Allah (ﷺ) said: Whoever builds a mosque for Allah, then Allah will build for him a house like it in Paradise. [Bukhari]
                 <br />
                 <ul className='text-center mt-4 mb-4'>
                     <li className='mt-4 mb-4'>Donate via 
