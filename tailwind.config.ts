@@ -8,6 +8,19 @@ const config: Config = {
   ],
   theme: {
     extend: {
+      screens: {
+        mob: {'max':"640px"},
+      },
+      colors: {
+        primary: "rgba(var(--primary-color))",
+        secondary: "rgba(var(--secondary-color))",
+        highlight: "rgba(var(--highlight-color))",
+        "on-highlight": "rgba(var(--on-highlight))",
+        menu: "rgba(var(--menu))",
+        heading: "rgba(var(--heading))",
+        body: "rgba(var(--body))",
+
+      },
       backgroundImage: {
         "gradient-radial": "radial-gradient(var(--tw-gradient-stops))",
         "gradient-conic":
@@ -16,5 +29,6 @@ const config: Config = {
     },
   },
   plugins: [],
+  darkMode: "class",
 };
 export default config;
