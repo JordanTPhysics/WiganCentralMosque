@@ -19,10 +19,16 @@ jobs:
         with:
           submodules: true
           lfs: false
-      - name: Set up Node.js
-        uses: actions/setup-node@v3.5.1 # Ensuring using a specific minor version
-        with:
-          node-version: '18.17.0' # Explicitly setting to the required version
+      - name: Set up Node.js using NVM
+        run: |
+          curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.3/install.sh | bash
+          export NVM_DIR="$HOME/.nvm"
+          [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"
+          nvm install 18.17.0
+          nvm use 18.17.0
+          node -v # Check node version
+      - name: Install dependencies
+        run: npm install
       - name: Build And Deploy
         id: builddeploy
         uses: Azure/static-web-apps-deploy@v1
