@@ -10,13 +10,13 @@ export default function Contact() {
             <p className="text-heading">For any inquiries, please call or email us:</p>
             <ul>
                 <li className="text-heading">
-                    <a className="text-heading" href="https://maps.app.goo.gl/XgjYja8afdffop7w9" target="_blank">📍4 Burgess St, Ince-in-Makerfield, Wigan WN3 4NH</a><br />
+                    <a className="text-heading" href="https://maps.app.goo.gl/XgjYja8afdffop7w9" target="_blank">📍240 Warrington Rd, Ince-in-Makerfield, Wigan WN3 4NH</a><br />
                 </li>
-                <li className="text-heading">
+                {/* <li className="text-heading">
                     <a className="text-heading" href="tel:12345 678910" target="_blank">📞 12345 678910</a>
-                </li>
+                </li> */}
                 <li className="text-heading">
-                    <a className="text-heading" href="mailto:wigancitymosque@gmail.com" target="_blank">📧 wigancitymosque@gmail.com</a>
+                    <a className="text-heading" href="mailto:info@impactcommunity.uk" target="_blank">📧 wigancitymosque@gmail.com</a>
                 </li>
             </ul>
 
