@@ -19,7 +19,7 @@ jobs:
         with:
           submodules: true
           lfs: false
-      - name: Set up Node.js using NVM
+      - name: Install dependencies
         run: |
           curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.3/install.sh | bash
           export NVM_DIR="$HOME/.nvm"
@@ -27,8 +27,7 @@ jobs:
           nvm install 18.17.0
           nvm use 18.17.0
           node -v # Check node version
-      - name: Install dependencies
-        run: npm install
+          npm install
       - name: Build And Deploy
         id: builddeploy
         uses: Azure/static-web-apps-deploy@v1
