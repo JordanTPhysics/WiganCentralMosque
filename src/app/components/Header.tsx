@@ -50,10 +50,9 @@ export default function Header() {
     const listClassName = "navigation-menu flex flex-wrap flex-grow justify-center lg:m-3 sm:m-1 md:m-2 md:col-span-5 lg:col-span-5 sm:col-span-1 sm:row-span-1";
     return (
         <header className="w-full grid md:grid-cols-8 lg:grid-cols-8 bg-primary">
-            <div className="logo  md:col-span-1 lg:col-span-1 sm:row-span-2">
-                <a href="#">
-                    <Image width={100} height={100} src="/resources/images\WCMLogo-removebg.png" alt="logo"></Image>
-                </a>
+            <div className="logo md:col-span-1 lg:col-span-1 sm:row-span-2 flex justify-center">
+                <Image src="/resources/images/WCMLogo-removebg.png" alt="logo" width={200} height={200} className="justify-center align-middle">
+                </Image>
             </div>
             <ul className={listClassName}>
                 <li >

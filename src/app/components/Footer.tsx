@@ -19,7 +19,7 @@ export default function Footer() {
                     </li>
                 </ul>
                 <div>
-                    <Image src="/resources/images/WCMLogo-removebg.png" alt="logo" width={100} height={100}></Image>
+                    <Image src="/resources/images/WCMLogo-removebg.png" alt="logo" width={200} height={200}></Image>
                 </div>
             </div>
             <div className="row w-full text-menu">

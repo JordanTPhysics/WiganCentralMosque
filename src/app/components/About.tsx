@@ -9,7 +9,7 @@ const About: React.FC = () => {
 
             <h1 className="text-5xl text-heading">About</h1>
             <h2 className="text-3xl text-heading text-center">Wigan Central Mosque</h2>
-            <Image src="/resources/images/front.jpeg" alt="The Old Building" width={100} height={100} className="w-1/2 md:w-1/4 lg:w-1/4 mx-auto rounded-md mt-2 mb-2" />
+            <Image src="/resources/images/front.jpeg" alt="The Old Building" width={300} height={300} className="w-1/2 md:w-1/4 lg:w-1/4 mx-auto rounded-md mt-2 mb-2" />
             <h3 className="text-2xl text-heading text-center">بِسْمِ ٱللَّٰهِ ٱلرَّحْمَٰنِ ٱلرَّحِيمِ</h3>
 
             <span className='text-menu'>
