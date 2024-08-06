@@ -20,7 +20,7 @@ const About: React.FC = () => {
                 <ul className='text-center mt-4 mb-4'>
                     <li className='text-lg'>Five daily prayers</li>
                     <li className='text-lg'>Jumuah prayers</li>
-                    <li className='text-lg'>Islamic classes for children and adults</li>
+                    <li className='text-lg'>After-school club for children</li>
                     <li className='text-lg'>Community events and engagement</li>
                     <li className='text-lg'>Interfaith events</li>
                     <li className='text-lg'>Foodbank</li>
