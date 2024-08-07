@@ -8,13 +8,13 @@ const About: React.FC = () => {
         <div className="bg-primary/90 rounded-sm w-screen p-4 mt-4 mb-4">
 
             <h1 className="text-5xl text-heading">About</h1>
-            <h2 className="text-3xl text-heading text-center">Wigan Central Mosque</h2>
+            <h2 className="text-3xl text-heading text-center">Wigan Central Masjid</h2>
             <Image src="/resources/images/front.jpeg" alt="The Old Building" width={300} height={300} className="w-1/2 md:w-1/4 lg:w-1/4 mx-auto rounded-md mt-2 mb-2" />
             <h3 className="text-2xl text-heading text-center">بِسْمِ ٱللَّٰهِ ٱلرَّحْمَٰنِ ٱلرَّحِيمِ</h3>
 
             <span className='text-menu'>
                 The muslim community in Wigan has been growing rapidly over the past few years. The need for an additional Mosque has been long overdue.
-                Wigan Central Mosque is a New Project to convert this old unused building into a Mosque. The mosque will be open to all visitors and will provide a range of services to the community.
+                Wigan Central Masjid is a New Project to convert this old unused building into a Mosque. The mosque will be open to all visitors and will provide a range of services to the community.
                 Planned community services:
                 <br />
                 <ul className='text-center mt-4 mb-4'>

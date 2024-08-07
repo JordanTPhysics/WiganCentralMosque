@@ -9,8 +9,8 @@ import ParallaxSection from "./components/ParallaxSection";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: "Wigan Central Mosque",
-  description: "Wigan Central Mosque & Community Centre, by Create Next App",
+  title: "Wigan Central Masjid",
+  description: "Wigan Central Masjid & Community Centre, by Create Next App",
   
 };
 
