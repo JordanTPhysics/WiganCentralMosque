@@ -6,7 +6,7 @@ import { ChartOptions } from "chart.js";
 import ChartDataLabels from 'chartjs-plugin-datalabels';
 import { format } from 'date-fns';
 import 'chartjs-adapter-moment';
-import { SalaahTime } from './TimeTable';
+import { SalaahTime } from '../pages/timetable';
 
 Chart.register(TimeScale)
 

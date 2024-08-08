@@ -6,7 +6,6 @@ export default function Document() {
     <Html>
       <Head>
         <link rel="icon" href="favicon.ico" />
-        <title>Wigan Central Masjid</title>
         <meta name="description" content="Wigan Central Masjid & Community Centre, by Create Next App" />
       </Head>
       <body className=''>

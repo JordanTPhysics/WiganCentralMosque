@@ -5,6 +5,7 @@ import "../app/styles/Header.css";
 import Contact from "../pages/contact";
 import Image from "next/image";
 import dynamic from "next/dynamic";
+import Link from "next/link";
 import { ContactModal } from "./ContactModal";
 
 const ThemeSwitcher = dynamic(() => import("./ThemeSwitcher"), { ssr: false });
@@ -56,22 +57,22 @@ export default function Header() {
             </div>
             <ul className={listClassName}>
                 <li >
-                    <a href="/" className={buttonClassName}>Home</a>
+                    <Link href="/" className={buttonClassName}>Home</Link>
                 </li>
                 <li >
-                    <a href="/donate" className={buttonClassName}>Donate </a>
+                    <Link href="/donate" className={buttonClassName}>Donate </Link>
                 </li>
                 <li >
-                    <a href="/programs" className={buttonClassName}>Programs </a>
+                    <Link href="/programs" className={buttonClassName}>Programs </Link>
                 </li>
                 <li >
-                    <a href="/about" className={buttonClassName}> About Us </a>
+                    <Link href="/about" className={buttonClassName}> About Us </Link>
                 </li>
                 <li >
-                    <a href="/timetable" className={buttonClassName}>Timetable </a>
+                    <Link href="/timetable" className={buttonClassName}>Timetable </Link>
                 </li>
                 <li >
-                    <a href="/form" className={buttonClassName}>Contact Us </a>
+                    <Link href="/form" className={buttonClassName}>Contact Us </Link>
                 </li>
                 <li >
                     <ThemeSwitcher />
