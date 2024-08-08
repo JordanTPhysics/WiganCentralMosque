@@ -9,10 +9,10 @@ import {
   DialogTrigger,
 } from "@/components/ui/dialog"
 
-import Contact from "./Contact"
+import Contact from "../pages/contact";
 
 import '../styles/globals.css'
-import { ContactForm } from "./ContactForm"
+import ContactForm from "./ContactForm"
 
 export function ContactModal() {
   return (

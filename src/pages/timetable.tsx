@@ -1,7 +1,7 @@
 "use client";
 
 import React, { useEffect, useState } from "react";
-import TimeSeriesChart from "./TimeSeriesChart";
+import TimeSeriesChart from "../components/TimeSeriesChart";
 
 function parseCSV(csvData: string): SalaahTime[] {
   // Split the CSV data into rows
@@ -82,7 +82,7 @@ const TimeTable = () => {
 
 
   return (
-    <div className="bg-primary/90 rounded-sm w-screen p-4 mt-4 mb-4">
+    <main className="bg-primary/90 rounded-sm w-screen p-4 mt-4 mb-4">
 
       <div>
       <h1 className="text-5xl text-heading">Time Table</h1>
@@ -141,7 +141,7 @@ const TimeTable = () => {
         <TimeSeriesChart data={salaahTimes} yAxisLabel="Salaah Times - Wigan" />
       </div>
 
-    </div>
+    </main>
   );
 };
 

@@ -1,12 +1,13 @@
-import Programs from "./components/Programs";
-import TimeTable from "./components/TimeTable";
-import About from "./components/About";
-import Donate from "./components/Donate";
+"use client";
+
+import Programs from "../pages/programs";
+import TimeTable from "../pages/timetable";
+import About from "../pages/about";
+import Donate from "../pages/donate";
 
 export default function Home() {
-
   return (
-    <main id="main" className="flex min-h-screen w-full max-w-screen flex-col items-center justify-between p-24">
+    <main  id="main" className="flex min-h-screen w-full max-w-screen flex-col items-center justify-between p-24">
         <section className="flex flex-col items-center justify-center">
           <About/>
         </section>

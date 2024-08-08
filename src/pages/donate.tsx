@@ -4,7 +4,7 @@ const Donate: React.FC = () => {
     const buttonClassName = "text-heading text-xs md:text-lg lg:text-lg m-0 p-0 md:p-2 lg:p-2 md:m-2 lg:m-2 lg:bg-secondary md:bg-secondary lg:rounded-lg sm:rounded-sm lg:m-3 md:m-2 sm:m-1 m-2 custom-link text-nowrap transition-all";
 
     return (
-        <div className="bg-primary/90 rounded-sm w-screen p-4 mt-4 mb-4">
+        <main className="bg-primary/90 rounded-sm w-screen p-4 mt-4 mb-4">
             <h1 className="text-5xl text-heading">Donate</h1>
 
             <span className='text-menu'>
@@ -23,7 +23,7 @@ const Donate: React.FC = () => {
                     </li>
                 </ul>
             </span>
-        </div>
+        </main>
     );
 };
 

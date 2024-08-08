@@ -1,8 +1,8 @@
 "use client";
 
 import React, { useState, useCallback, useEffect } from "react";
-import "../styles/Header.css";
-import Contact from "./Contact";
+import "../app/styles/Header.css";
+import Contact from "../pages/contact";
 import Image from "next/image";
 import dynamic from "next/dynamic";
 import { ContactModal } from "./ContactModal";
@@ -68,7 +68,10 @@ export default function Header() {
                     <a href="/about" className={buttonClassName}> About Us </a>
                 </li>
                 <li >
-                    <a href="/contact" className={buttonClassName}>Timetable </a>
+                    <a href="/timetable" className={buttonClassName}>Timetable </a>
+                </li>
+                <li >
+                    <a href="/form" className={buttonClassName}>Contact Us </a>
                 </li>
                 <li >
                     <ThemeSwitcher />

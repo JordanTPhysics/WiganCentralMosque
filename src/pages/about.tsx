@@ -5,7 +5,7 @@ const About: React.FC = () => {
     const listClassName = "navigation-menu flex flex-wrap flex-grow justify-center lg:m-3 sm:m-1 md:m-2 md:col-span-5 lg:col-span-5 sm:col-span-1 sm:row-span-1";
 
     return (
-        <div className="bg-primary/90 rounded-sm w-screen p-4 mt-4 mb-4">
+        <main className="bg-primary/90 rounded-sm w-screen p-4 mt-4 mb-4">
 
             <h1 className="text-5xl text-heading">About</h1>
             <h2 className="text-3xl text-heading text-center">Wigan Central Masjid</h2>
@@ -41,7 +41,7 @@ const About: React.FC = () => {
                 </ul>
             </span>
 
-        </div>
+        </main>
     );
 };
 
